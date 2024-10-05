@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import * as stylex from "@stylexjs/stylex";
 import { artworkDisplayStyles } from '../stylex'; // Adjust the import path as needed
 
-const apiKey = "eXVjKRhm";
+const apiKey = "vuWBHNmS";
 const objectNumber = "RP-T-1969-898";
 
 const fetchArtworkImage = async () => {
