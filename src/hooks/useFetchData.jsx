@@ -32,7 +32,7 @@ const useFetchData = () => {
         return { repo, data: defaultData };
       }
     };
-    Promise.all([fetchData("next"), fetchData("15")])
+    Promise.all([fetchData("BADIR-"), fetchData("remix")])
       .then((data) => setTrafficData(data))
       .catch((error) => console.error("Error:", error));
   }, []);
